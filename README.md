@@ -25,4 +25,11 @@ mux를 정해주는 것과 http로 바로 연결하는 것에는 어떤차이?
 
   - 예를 들어 테스트 환경에서는 특정 핸들러를 호출하고, 일반 상황에서는 일반 핸들러를 호출하려고 하는 경우처럼, 조건에 따라 다른 핸들러를 호출해줘야 할 때 여러 mux 인스턴스를 만들어서 사용할 수 있다.
 
-tucker의 go lang 강의 Repository
+
+* HTTP: Hyper Text Transfer Protocol// hyper text를 전달하는 규약
+
+  - Request와 Response를 어떤 형식으로 할 것인지는 http 프로토콜에 정의되어 있다.
+
+  - Server Rendering: 서버에서 html을 전부 그려 client로 전달
+  
+  - tucker의 go lang 강의 Repository
